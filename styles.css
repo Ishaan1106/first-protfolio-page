@@ -90,7 +90,7 @@ img.rounded-corner{
 }
 /*profile picture ends*/
 
-/*sub section starts*/
+/*info section starts*/
 div div h5.sub.welcome{
     position: absolute;
 width: 90px;
@@ -99,6 +99,7 @@ left: 162px;
 top: 300px;
 border-radius: 200px;
 padding: 8px 12px;
+color: var(--green);
 align-items: center;
 border: 2px solid var(--green)
 }
@@ -110,6 +111,7 @@ height: 40px;
 left: 162px;
 top: 1784px;
 border-radius: 200px;
+color: var(--green);
 padding: 8px 12px;
 align-items: center;
 border: 2px solid var(--green)
@@ -122,11 +124,12 @@ height: 40px;
 left: 162px;
 top: 2472px;
 border-radius: 200px;
+color: var(--green);
 padding: 8px 12px;
 align-items: center;
 border: 2px solid var(--green)
 }
-/*sub section ends*/
+/*info section ends*/
 
 div div.hero-text p.sub-title{
     position: absolute;
@@ -157,9 +160,11 @@ line-height: 70px;
 font-size: 58px;
 }
 
+/* button 2 starts */
+/* contact me  */
 div div.hero-text a.btn.dark{
     position: absolute;
-width: 120px;
+width: 126px;
 height: 40px;
 left: 167px;
 top: 604px;
@@ -175,9 +180,10 @@ div div.hero-text a.btn.dark:hover{
     color: var(--green);
 }
 
+/* learn more */
 div div.hero-text a.btn.light{
     position: absolute;
-width: 120px;
+width: 126px;
 height: 40px;
 left: 320px;
 top: 604px;
@@ -186,6 +192,50 @@ padding: 5px 12px;
 border-radius: 3px;
 border: 2px solid var(--green)
 }
+/* button 2 ends */
+
+div div.big{
+    color: var(--green);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+}
+div div p.e0{
+    position: absolute;
+    width: 95px;
+    height: 48px;
+    left: 165px;
+    top: 904px;
+
+    display: flex;
+    align-items: center;
+}
+
+div div p.e1{
+    position: absolute;
+width: 122px;
+height: 48px;
+left: 595px;
+top: 904px;
+
+display: flex;
+align-items: center;
+}
+
+div div p.e2{
+    position: absolute;
+width: 93px;
+height: 48px;
+left: 1078px;
+top: 904px;
+
+display: flex;
+align-items: center;
+}
+
+
 
 
 
