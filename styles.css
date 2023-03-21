@@ -75,14 +75,14 @@ a.btn.light:hover{
     position: absolute;
 width: 401px;
 height: 401px;
-left: 816px;
+left: 806px;
 top: 330px;
 }
 .hero-container .hero-ground{
     position: absolute;
 width: 420px;
 height: 420px;
-left: 857px;
+left: 847px;
 top: 270px;
 }
 img.rounded-corner{
@@ -91,43 +91,52 @@ img.rounded-corner{
 /*profile picture ends*/
 
 /*info section starts*/
+
+div div h5.sub{
+    border-radius: 200px;
+    padding: 8px 12px;
+    color: var(--green);
+    align-items: center;
+    border: 2px solid var(--green)
+}
 div div h5.sub.welcome{
     position: absolute;
 width: 90px;
 height: 40px;
-left: 162px;
+left: 152px;
 top: 300px;
-border-radius: 200px;
-padding: 8px 12px;
-color: var(--green);
-align-items: center;
-border: 2px solid var(--green)
+}
+
+div div h5.sub.skills{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 152px;
+    top: 1200px;
 }
 
 div div h5.sub.portfolio{
     position: absolute;
 width: 90px;
 height: 40px;
-left: 162px;
+left: 152px;
 top: 1784px;
-border-radius: 200px;
-color: var(--green);
-padding: 8px 12px;
-align-items: center;
-border: 2px solid var(--green)
 }
 
 div div h5.sub.reviews{
     position: absolute;
 width: 90px;
 height: 40px;
-left: 162px;
+left: 152px;
 top: 2472px;
-border-radius: 200px;
-color: var(--green);
-padding: 8px 12px;
-align-items: center;
-border: 2px solid var(--green)
+}
+
+div div h5.sub.contact{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 674px;
+    top: 3061px;
 }
 /*info section ends*/
 
@@ -135,7 +144,7 @@ div div.hero-text p.sub-title{
     position: absolute;
     width: 540px;
     height: 48px;
-    left: 167px;
+    left: 157px;
     top: 516px;
     
     font-family: 'Poppins';
@@ -150,7 +159,7 @@ div div h1.head{
     position: absolute;
 width: 482px;
 height: 140px;
-left: 167px;
+left: 157px;
 top: 352px;
 font-family: 'Poppins';
 font-style: 'medium';
@@ -166,7 +175,7 @@ div div.hero-text a.btn.dark{
     position: absolute;
 width: 126px;
 height: 40px;
-left: 167px;
+left: 157px;
 top: 604px;
 padding: 5px 10px;
 color: white;
@@ -174,6 +183,7 @@ background-color: var(--green);
 border: 2px solid var(--green);
 border-radius: 3px;
 font-size: 14;
+transition: all 400ms;
 }
 div div.hero-text a.btn.dark:hover{          
     background-color: white;
@@ -185,15 +195,17 @@ div div.hero-text a.btn.light{
     position: absolute;
 width: 126px;
 height: 40px;
-left: 320px;
+left: 310px;
 top: 604px;
 font-size: 14;
 padding: 5px 12px;
 border-radius: 3px;
 border: 2px solid var(--green)
+
 }
 /* button 2 ends */
 
+/* mid starts*/
 div div.big{
     color: var(--green);
     font-family: 'Poppins';
@@ -206,7 +218,7 @@ div div p.e0{
     position: absolute;
     width: 95px;
     height: 48px;
-    left: 165px;
+    left: 155px;
     top: 904px;
 
     display: flex;
@@ -217,7 +229,7 @@ div div p.e1{
     position: absolute;
 width: 122px;
 height: 48px;
-left: 595px;
+left: 585px;
 top: 904px;
 
 display: flex;
@@ -228,7 +240,7 @@ div div p.e2{
     position: absolute;
 width: 93px;
 height: 48px;
-left: 1078px;
+left: 1068px;
 top: 904px;
 
 display: flex;
@@ -236,8 +248,100 @@ align-items: center;
 }
 
 
+div div.small-txt{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+display: flex;
+align-items: center;
+}
+
+div div p.s0{
+    position: absolute;
+width: 218px;
+height: 28px;
+left: 155px;
+top: 976px;
+
+}
+
+div div p.s1{
+    position: absolute;
+width: 272px;
+height: 28px;
+left: 585px;
+top: 976px;
+}
+
+div div p.s2{
+    position: absolute;
+width: 197px;
+height: 28px;
+left: 1068px;
+top: 976px;
+}
+
+div div.line0{
+    position: absolute;
+    left: 479px;
+top: 906px;
+border: 1px solid #0DB760;
+}
+
+div div.line1{
+    position: absolute;
+    left: 963px;
+top: 906px;
+border: 1px solid #0DB760;
+}
+
+div div.right.pat{
+    position: absolute;
+    left: 1320px;
+top: 1045px;
+}
+
+div div.left.pat{
+    position: absolute;
+left: -1310px;
+top: 500px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+/* mid ends*/
+
+/* mid2 starts*/
+div.mid2 p.head{
+position: absolute;
+width: 438px;
+height: 108px;
+left: 163px;
+top: 1260px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 54px;
+}
+
+div.mid2 p.para{
+    position: absolute;
+width: 503px;
+height: 72px;
+left: 163px;
+top:1386px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+}
 
 
 
 
 /*this will move the picture to background  z-index: value; */
+
+
