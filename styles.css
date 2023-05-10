@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600&display=swap');
+.dummy {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+--green : #0DB760;
+--black : #000000;
+}
+/* setting the webpage to its default configration  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+html, body {
+    min-height: 100%;
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    width: 1325px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px;
+
+}
+
+/*nav bar in horizontally*/
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+/* spacing between natigation icons */
+nav ul li{
+    margin: 0 20px;
+}
+
+/* font setting */
+nav ul li a{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+} 
+
+/* button starts */
+a.btn{
+    border-radius: 5px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 400ms;
+}
+
+a.btn.light{
+    border: 2px solid var(--green);
+}
+
+a.btn.light:hover{          
+    background-color: var(--green);
+    color: whitesmoke;
+}
+/* button ends */
+
+/* profile image starts */
+.hero-container .hero-image{
+    position: absolute;
+width: 401px;
+height: 401px;
+left: 806px;
+top: 330px;
+}
+.hero-container .hero-ground{
+    position: absolute;
+width: 420px;
+height: 420px;
+left: 847px;
+top: 270px;
+}
+img.rounded-corner{
+    border-radius: 50px;
+}
+/*profile picture ends*/
+
+/*info section starts*/
+
+div div h5.sub{
+    border-radius: 200px;
+    padding: 8px 12px;
+    color: var(--green);
+    align-items: center;
+    border: 2px solid var(--green)
+}
+div div h5.sub.welcome{
+    position: absolute;
+width: 90px;
+height: 40px;
+left: 152px;
+top: 300px;
+}
+
+div div h5.sub.skills{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 152px;
+    top: 1200px;
+}
+
+div div h5.sub.portfolio{
+    position: absolute;
+width: 90px;
+height: 40px;
+left: 152px;
+top: 1784px;
+}
+
+div div h5.sub.reviews{
+    position: absolute;
+width: 90px;
+height: 40px;
+left: 152px;
+top: 2472px;
+}
+
+div div h5.sub.contact{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 674px;
+    top: 3061px;
+}
+/*info section ends*/
+
+/*texts under headings*/
+div div div.para2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323433;
+}
+
+div div div.para2 p.p0{
+    position: absolute;
+width: 540px;
+height: 48px;
+left: 157px;
+top: 516px;
+}
+
+div div div.para2 p.p1{
+position: absolute;
+width: 503px;
+height: 72px;
+left: 153px;
+top: 1386px;
+}
+
+div div div.para2 p.p2{
+    position: absolute;
+    width: 350px;
+    height: 48px;
+    left: 168px;
+    top: 1966px;
+}
+
+div div div.para2 p.p3{
+    position: absolute;
+width: 509px;
+height: 48px;
+left: 463px;
+top: 3187px;
+color: #323433;
+}
+/*text under heading ends*/
+
+div div h1.head{
+    position: absolute;
+width: 482px;
+height: 140px;
+left: 157px;
+top: 352px;
+font-family: 'Poppins';
+font-style: 'medium';
+font-weight: 500;
+font-size: 58px;
+line-height: 70px;
+font-size: 58px;
+}
+
+/* button 2 starts */
+/* contact me  */
+div div.hero-text a.btn.dark{
+    position: absolute;
+width: 126px;
+height: 40px;
+left: 157px;
+top: 604px;
+padding: 5px 10px;
+color: white;
+background-color: var(--green);
+border: 2px solid var(--green);
+border-radius: 3px;
+font-size: 14;
+transition: all 400ms;
+}
+div div.hero-text a.btn.dark:hover{          
+    background-color: white;
+    color: var(--green);
+}
+
+/* learn more */
+div div.hero-text a.btn.light{
+    position: absolute;
+width: 126px;
+height: 40px;
+left: 310px;
+top: 604px;
+font-size: 14;
+padding: 5px 12px;
+border-radius: 3px;
+border: 2px solid var(--green)
+
+}
+/* button 2 ends */
+
+/* mid starts*/
+div div.big{
+    color: var(--green);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+}
+div div p.e0{
+    position: absolute;
+    width: 95px;
+    height: 48px;
+    left: 155px;
+    top: 904px;
+
+    display: flex;
+    align-items: center;
+}
+
+div div p.e1{
+    position: absolute;
+width: 122px;
+height: 48px;
+left: 585px;
+top: 904px;
+
+display: flex;
+align-items: center;
+}
+
+div div p.e2{
+    position: absolute;
+width: 93px;
+height: 48px;
+left: 1068px;
+top: 904px;
+
+display: flex;
+align-items: center;
+}
+
+
+div div.small-txt{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+display: flex;
+align-items: center;
+}
+
+div div p.s0{
+    position: absolute;
+width: 218px;
+height: 28px;
+left: 155px;
+top: 976px;
+
+}
+
+div div p.s1{
+    position: absolute;
+width: 272px;
+height: 28px;
+left: 585px;
+top: 976px;
+}
+
+div div p.s2{
+    position: absolute;
+    width: 197px;
+    height: 28px;
+    left: 1068px;
+    top: 976px;
+}
+
+div div.line0{
+    position: absolute;
+    left: 479px;
+    top: 906px;
+    border: 1px solid #0DB760;
+}
+
+div div.line1{
+    position: absolute;
+    left: 963px;
+    top: 906px;
+    border: 1px solid #0DB760;
+}
+
+div div.right.pat{
+    position: absolute;
+    left: 1400px;
+    top: 1045px;
+}
+
+div div.left.pat{
+    position: absolute;
+    left: -1410px;
+    top: 500px;
+
+}
+/* mid ends*/
+
+/* mid2 starts*/
+div.mid2 div.head2{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+div.mid2 div.head2 p.h0{
+    position: absolute;
+    width: 438px;
+    height: 108px;
+    left: 153px;
+    top: 1260px;
+}
+
+div.mid2 div.head2 p.h1{
+    position: absolute;
+    width: 390px;
+    height: 108px;
+    left: 158px;
+    top: 1834px;
+}
+div.mid2 div.head2 p.h2{
+    position: absolute;
+    width: 416px;
+    height: 108px;
+    left: 158px;
+    top: 2513px;
+}
+div.mid2 div.head2 p.h3{
+    position: absolute;
+    width: 511px;
+    height: 54px;
+    left: 462px;
+    top: 3109px;
+}
+
+/* add skills part  */
+div div.diamond{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 756px;
+    top: 1210px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+div div.pulse{
+    position: absolute;
+width: 28px;
+height: 28px;
+left: 1041px;
+top: 1305px;
+}
+
+div div.school{
+    position: absolute;
+width: 28px;
+height: 28px;
+left: 756px;
+top: 1400px;
+}
+
+/* skills head */
+div.mid-left-head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+div.mid-left-head p.skills-h{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 1041px;
+    top: 1349px;
+    
+}
+
+div.mid-left-head p.add-skills{
+    position: absolute;
+    width: 147px;
+    height: 20px;
+    left: 756px;
+    top: 1254px;
+}
+
+div.mid-left-head p.skills-h1{
+    position: absolute;
+width: 51px;
+height: 20px;
+left: 756px;
+top: 1444px;
+}
+/*sub part*/
+div.mid-left-sub {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #323433;
+}
+
+div.mid-left-sub p.s0 {
+    position: absolute;
+width: 221px;
+height: 21px;
+left: 756px;
+top: 1286px;
+}
+
+div.mid-left-sub p.s1 {
+    position: absolute;
+width: 221px;
+height: 21px;
+left: 1041px;
+top: 1381px;
+}
+
+div.mid-left-sub p.s2 {
+    position: absolute;
+width: 221px;
+height: 21px;
+left: 756px;
+top: 1476px;
+}
+/*button */
+div.mid-left-sub a.btn.dark{
+    position: absolute;
+width: 126px;
+height: 46px;
+left: 152px;
+top: 1476px;
+padding: 10px 31px;
+color: white;
+background-color: var(--green);
+border: 2px solid var(--green);
+border-radius: 5px;
+font-size: 14;
+transition: all 400ms;
+}
+div.mid-left-sub a.btn.dark:hover{
+background-color: white;
+color: var(--green);
+}
+/* mid2 ends*/
+
+/*project photos*/
+div.projects img.p0{
+    position: absolute;
+
+left: 520px;
+top: 1700px;
+
+}
+
+div.projects img.p1{
+    position: absolute;
+    width: 325px;
+height: 440px;
+    left: 970px;
+    top: 1727px;
+}    
+
+div.projects img.p2{
+position:absolute;
+width: 200px;
+height: 480px;
+left: 1218px;
+top: 1727px;
+display: flex;
+}
+
+/*review part*/
+div.reviews {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #11142D;
+}
+
+div.reviews p.r0{
+    position: absolute;
+    width: 416px;
+    height: 51px;
+    left: 200px;
+    top: 2729px;
+}
+
+div.reviews p.r1{
+    position: absolute;
+width: 416px;
+height: 51px;
+left: 710px;
+top: 2729px;
+}
+
+div.reviews p.r2{
+    position: absolute;
+width: 230px;
+height: 51px;
+left: 1220px;
+top: 2729px;
+}
+/*names*/
+div.reviews div.names{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #11142D;
+}
+
+div.reviews div.names p.n0{
+    position: absolute;
+width: 92px;
+height: 19px;
+left: 256px;
+top: 2810px;
+}
+
+div.reviews div.names p.n1{
+    position: absolute;
+    width: 111px;
+    height: 19px;
+    left: 766px;
+    top: 2810px;
+}
+
+div.reviews div.names p.n2{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 1276px;
+    top: 2810px;
+}
+/*roles*/
+div.reviews div.roles{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.008em;
+color: #92929D;
+}
+
+div.reviews div.roles p.r0{
+    position: absolute;
+    width: 144px;
+    height: 18px;
+    left: 256px;
+    top: 2833px;
+}
+
+div.reviews div.roles p.r1{
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 766px;
+    top: 2833px;
+}
+
+div.reviews div.roles p.r2{
+    position: absolute;
+    width: 139px;
+    height: 18px;
+    left: 1276px;
+    top: 2833px;
+}
+/*pfp*/
+div.reviews div.aviator img.a0{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    top: 2810px;
+}
+
+div.reviews div.aviator img.a1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 710px;
+    top: 2810px;
+}
+
+div.reviews div.aviator img.a2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1220px;
+    top: 2810px;
+}
+/*review part ends*/
+
+/*pattern2 starts*/
+div.pattern2 img.p0{
+    position: absolute;
+    width: 62px;
+    height: 132.45px;
+    left: 1450px;
+    top: 1045px;
+}
+div.pattern2 img.p1{
+    position: absolute;
+    width: 62px;
+    height: 132.45px;
+    left: 44px;
+    top: 1594.55px;
+}
+
+div.pattern2 img.d0{
+    position: absolute;
+    width: 62px;
+    height: 132.45px;
+    left: 1450px;
+    top: 2345px;
+}
+div.pattern2 img.d1{
+    position: absolute;
+width: 62px;
+height: 132.45px;
+left: -18px;
+top: 2924px;
+}
